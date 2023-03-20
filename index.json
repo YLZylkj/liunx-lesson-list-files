@@ -1,0 +1,32 @@
+{
+    "title": "Lesson 1: list files",
+    "description": "1. First look on ls command",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "1.What is ls?",
+                "text": "step1.md"
+            },
+            {
+                "title": "2. Get more information",
+                "text": "step2.md"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "provide": "true",
+        "imageid": "alpine",
+        "expose": 8080,
+        "layout": "",
+        "skins": "",
+        "tools": "idea",
+        "cpu": 1,
+        "memory": 1024
+    }
+}
